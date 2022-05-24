@@ -1,5 +1,7 @@
 // JS for Drum kit
 
+// GLOBAL LISTS
+
 // List of drums
 const listItems = document.getElementsByTagName("li");
 
@@ -19,7 +21,9 @@ const soundPath = [
 // list of keyboard key shortcut key
 const keysList = ["b", "c", "h", "k", "o", "r", "s", "t", "m"];
 
-// click action
+// ACTIONS
+
+// click
 for (let listItem of listItems) {
   listItem.addEventListener("click", () => {
     let sound_file = `sounds/${listItem.id}.wav`;
@@ -37,3 +41,5 @@ document.addEventListener("keypress", (e) => {
     }
   }
 });
+
+// STYLING
