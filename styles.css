@@ -39,15 +39,5 @@ li {
   padding: 10px;
   text-align: center;
   margin-top: 10px;
-}
-
-/* tablet and view for screens less than 1000px */
-@media all and (max-width: 1000px) {
-}
-
-/* mobile and view for screens less than 500px */
-@media only screen and (max-width: 500px) {
-  .myFooter {
-    text-size-adjust: 30%;
-  }
+  font-size: small;
 }
