@@ -19,14 +19,23 @@ header {
   padding: 10px;
   margin-top: 10px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .buttons {
-  flex-direction: row;
   flex-grow: 1;
   box-sizing: border-box;
   border: 1px solid black;
   padding: 10px;
   margin: 10px;
   text-align: center;
+}
+
+footer {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
 }
