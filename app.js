@@ -20,3 +20,10 @@ const audioHiHat = document.getElementById("audioHiHat");
 hiHat.addEventListener("click", () => {
   audioHiHat.play();
 });
+
+const kick = document.getElementById("kick");
+const audioKick = document.getElementById("audioKick");
+
+kick.addEventListener("click", () => {
+  audioKick.play();
+});
