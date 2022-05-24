@@ -5,12 +5,12 @@ const listItems = document.getElementsByTagName("li");
 
 // click action
 for (let listItem of listItems) {
-  listItem.addEventListener("mouseover", () => {
-    listItem.textContent = listItem.textContent.toUpperCase();
-  });
-  listItem.addEventListener("mouseout", () => {
-    listItem.textContent = listItem.textContent.toLowerCase();
-  });
+  // listItem.addEventListener("mouseover", () => {
+  //   listItem.textContent = listItem.textContent.toUpperCase();
+  // });
+  // listItem.addEventListener("mouseout", () => {
+  //   listItem.textContent = listItem.textContent.toLowerCase();
+  // });
   listItem.addEventListener("click", () => {
     let sound_file = `sounds/${listItem.id}.wav`;
     let drum_beat = new Audio(sound_file);
@@ -32,7 +32,7 @@ const soundPath = [
   `sounds/tom.wav`,
 ];
 
-const keysList = ["b", "c", "h", "k", "o", "r", "s", "t", "T"];
+const keysList = ["b", "c", "h", "k", "o", "r", "s", "t", "m"];
 
 document.addEventListener("keypress", (e) => {
   for (let i = 0; i < keysList.length; i++) {
