@@ -3,23 +3,7 @@
 // List of drums
 const listItems = document.getElementsByTagName("li");
 
-// click action
-for (let listItem of listItems) {
-  // listItem.addEventListener("mouseover", () => {
-  //   listItem.style.color = "red";
-  // });
-  // listItem.addEventListener("mouseout", () => {
-  //   listItem.style.color = "black";
-  // });
-  listItem.addEventListener("click", () => {
-    let sound_file = `sounds/${listItem.id}.wav`;
-    let drum_beat = new Audio(sound_file);
-    drum_beat.play();
-  });
-}
-
-//
-// Keyboard
+// list of path names to audio files
 const soundPath = [
   `sounds/boom.wav`,
   `sounds/clap.wav`,
@@ -32,8 +16,19 @@ const soundPath = [
   `sounds/tom.wav`,
 ];
 
+// list of keyboard key shortcut key
 const keysList = ["b", "c", "h", "k", "o", "r", "s", "t", "m"];
 
+// click action
+for (let listItem of listItems) {
+  listItem.addEventListener("click", () => {
+    let sound_file = `sounds/${listItem.id}.wav`;
+    let drum_beat = new Audio(sound_file);
+    drum_beat.play();
+  });
+}
+
+// keyboard
 document.addEventListener("keypress", (e) => {
   for (let i = 0; i < keysList.length; i++) {
     if (e.key == keysList[i]) {
