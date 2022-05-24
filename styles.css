@@ -48,6 +48,6 @@ li {
 /* mobile and view for screens less than 500px */
 @media only screen and (max-width: 500px) {
   .myFooter {
-    text-size-adjust: 50%;
+    text-size-adjust: 30%;
   }
 }
