@@ -1,40 +1,27 @@
 // JS for Drum kit
 
-// sounds
-const Boom = new Audio("sounds/boom.wav");
-const Clap = new Audio("sounds/clap.wav");
-const HiHat = new Audio("sounds/hithat.wav");
-const Kick = new Audio("sounds/kick.wav");
-const OpenHat = new Audio("sounds/openhat.wav");
-const Ride = new Audio("sounds/ride.wav");
-const Snare = new Audio("sounds/snare.wav");
-const Tink = new Audio("sounds/tink.wav");
-const Tom = new Audio("sounds/tom.wav");
+// List of drums
+const listItems = document.getElementsByTagName("li");
+// console.log(listItems);
 
-let button = document.getElementById("button");
+// UPPER lower case
+for (let listItem of listItems) {
+  listItem.addEventListener("mouseover", () => {
+    listItem.textContent = listItem.textContent.toUpperCase();
+  });
+  listItem.addEventListener("mouseout", () => {
+    listItem.textContent = listItem.textContent.toLowerCase();
+  });
+}
 
-button.addEventListener("click", () => {
-  let list = document.get("drumList");
-});
-
-// tip from josh
-//   audioBoom.pause();
-//   audioBoom.load();
-//   audioBoom.currentTime = 0;
-//   audioBoom.volume = 1.0;
-//   audioBoom.play();
-
-// const clap = document.getElementById("clap");
-// clap.addEventListener("click", () => {
-//   audioClap.play();
-// });
-
-// const hiHat = document.getElementById("hiHat");
-// hiHat.addEventListener("click", () => {
-//   audioHiHat.play();
-// });
-
-// const kick = document.getElementById("kick");
-// kick.addEventListener("click", () => {
-//   audioKick.play();
-// });
+// click on each item
+for (let listItem of listItems) {
+  listItem.addEventListener("click", () => {
+    // console.log(listItem);
+    // console.log(listItem.id);
+    let sound_file = `sounds/${listItem.id}.wav`;
+    // console.log(sound_file);
+    let drum_beat = new Audio(sound_file);
+    drum_beat.play();
+  });
+}
