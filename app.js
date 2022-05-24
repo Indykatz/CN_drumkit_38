@@ -5,12 +5,12 @@ const listItems = document.getElementsByTagName("li");
 
 // click action
 for (let listItem of listItems) {
-  // listItem.addEventListener("mouseover", () => {
-  //   listItem.textContent = listItem.textContent.toUpperCase();
-  // });
-  // listItem.addEventListener("mouseout", () => {
-  //   listItem.textContent = listItem.textContent.toLowerCase();
-  // });
+  listItem.addEventListener("mouseover", () => {
+    listItem.style.color = "red";
+  });
+  listItem.addEventListener("mouseout", () => {
+    listItem.style.color = "black";
+  });
   listItem.addEventListener("click", () => {
     let sound_file = `sounds/${listItem.id}.wav`;
     let drum_beat = new Audio(sound_file);
