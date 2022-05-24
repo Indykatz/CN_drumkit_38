@@ -13,7 +13,7 @@ header {
   text-align: center;
 }
 
-.content {
+.content ul {
   box-sizing: border-box;
   border: 1px solid black;
   padding: 10px;
@@ -23,13 +23,7 @@ header {
   flex-wrap: wrap;
 }
 
-.button-drums {
-  list-style: none;
-  flex-grow: 1;
-  text-align: center;
-}
-
-button {
+li {
   list-style: none;
   flex-grow: 1;
   box-sizing: border-box;
@@ -39,7 +33,6 @@ button {
   text-align: center;
 }
 
-/* footer */
 .myFooter {
   box-sizing: border-box;
   border: 1px solid black;
