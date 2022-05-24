@@ -18,9 +18,12 @@ header {
   border: 1px solid black;
   padding: 10px;
   margin-top: 10px;
+  display: flex;
 }
 
 .buttons {
+  flex-direction: row;
+  flex-grow: 1;
   box-sizing: border-box;
   border: 1px solid black;
   padding: 10px;
