@@ -144,6 +144,8 @@ h2 {
 
 /* footer */
 .foot {
+  position: absolute;
+  bottom: 0px;
   background-color: #2a5a97;
   padding: 10px;
   text-align: center;
