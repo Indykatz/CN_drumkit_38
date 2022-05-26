@@ -1,7 +1,5 @@
 // JS for Drum kit
 
-// GLOBAL LISTS
-
 // List of drums
 const listItems = document.getElementsByTagName("li");
 
@@ -41,5 +39,3 @@ document.addEventListener("keypress", (e) => {
     }
   }
 });
-
-// STYLING
