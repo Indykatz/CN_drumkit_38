@@ -145,7 +145,7 @@ h2 {
 
 /* footer */
 .foot {
-  position: relative;
+  position: fixed;
   bottom: 0px;
   background-color: #2a5a97;
   padding: 10px;
@@ -163,5 +163,10 @@ h2 {
 
   h2 {
     font-size: 80%;
+  }
+
+  .foot {
+    position: relative;
+    bottom: 0px;
   }
 }
