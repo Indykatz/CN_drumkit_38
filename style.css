@@ -259,7 +259,7 @@ h2 {
 }
 
 /* ride */
-#tom:hover {
+#tom:hover #tom:active {
   color: #2a5a97;
   background: #f49446;
   box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
@@ -267,9 +267,4 @@ h2 {
 #tom:active {
   box-shadow: 0 0 5px #2a5a97;
   transform: translateY(4px);
-}
-#tom:active::after {
-  color: #2a5a97;
-  background: #fff;
-  /* box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px; */
 }
