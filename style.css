@@ -144,6 +144,7 @@ h2 {
   background: #2a5a97;
   box-shadow: 0 0 10px #2a5a97;
   color: #f49446;
+  cursor: pointer;
 }
 
 /* footer */
@@ -185,17 +186,16 @@ li:active {
     bottom: 0px;
   }
 
-  .content li:hover,
-  .content li:focus,
-  .content li:active {
+  .content li:focus {
     color: #2a5a97;
     background: #f49446;
     box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
+    transform: translateY(4px);
   }
-  .content li:hover,
+  /* .content li:hover,
   .content li:focus,
   .content li:active {
     box-shadow: 0 0 5px #2a5a97;
     transform: translateY(4px);
-  }
+  } */
 }
