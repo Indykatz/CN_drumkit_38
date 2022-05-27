@@ -161,12 +161,10 @@ h2 {
 
 /* Animation on button */
 /* All button */
-.content li:hover {
+.content li:active {
   color: #2a5a97;
   background: #f49446;
   box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-li:active {
   box-shadow: 0 0 5px #2a5a97;
   transform: translateY(4px);
 }
@@ -185,17 +183,4 @@ li:active {
     position: relative;
     bottom: 0px;
   }
-
-  .content li:focus {
-    color: #2a5a97;
-    background: #f49446;
-    box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-    transform: translateY(4px);
-  }
-  /* .content li:hover,
-  .content li:focus,
-  .content li:active {
-    box-shadow: 0 0 5px #2a5a97;
-    transform: translateY(4px);
-  } */
 }
