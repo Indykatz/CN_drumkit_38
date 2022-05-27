@@ -176,121 +176,12 @@ h2 {
 
 /* Animation on button */
 /* All button */
-/* .content li:hover {
+.content li:hover {
   color: #2a5a97;
   background: #f49446;
   box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
 }
-.content li:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-} */
-
-/* Animation on button */
-/* boom */
-#boom:hover {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-#boom:active {
+li:active {
   box-shadow: 0 0 5px #2a5a97;
   transform: translateY(4px);
 }
-
-/* clap */
-#clap:hover {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-#clap:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-}
-
-/* hhihat */
-#hihat:hover {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-#hihat:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-}
-/* kick */
-#kick:hover {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-#kick:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-}
-/* open hate */
-#openhat:hover {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-#openhat:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-}
-
-/* ride */
-#ride:hover {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-#ride:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-}
-
-/* snare */
-#snare:hover {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-#snare:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-}
-
-/* tink */
-#tink:hover {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-#tink:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-}
-
-/* tom */
-/* #tom:hover {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-}
-#tom:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-} */
-#tom:active {
-  color: #2a5a97;
-  background: #f49446;
-  box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-}
-/* #tom:active {
-  box-shadow: 0 0 5px #2a5a97;
-  transform: translateY(4px);
-} */
