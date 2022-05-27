@@ -141,6 +141,9 @@ h2 {
   box-sizing: border-box;
   border: 1px solid #2a5a97;
   border-radius: 15px;
+  background: #2a5a97;
+  box-shadow: 0 0 10px #2a5a97;
+  color: #f49446;
 }
 
 /* footer */
@@ -259,7 +262,7 @@ h2 {
 }
 
 /* ride */
-#tom:hover:focus {
+#tom:hover {
   color: #2a5a97;
   background: #f49446;
   box-shadow: 0 0 10px #f49446, 0 0 40px #f49446, 0 0 80px;
